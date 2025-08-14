@@ -26,7 +26,7 @@ function limpiarCaja() {
 
 function mensajesInicio() {
     asignarTextoEtiqueta("h1", "Super Juego del número secreto");
-    asignarTextoEtiqueta(".texto__parrafo", "Adivina un número del 1 al 100");
+    asignarTextoEtiqueta(".texto__parrafo", "Adivina un número del 1 al 10");
 }
 
 mensajesInicio();
@@ -74,3 +74,4 @@ function reiniciarJuego() {
     mensajesInicio();
     document.querySelector("#reiniciar").setAttribute("disabled", "true");
 }
+
